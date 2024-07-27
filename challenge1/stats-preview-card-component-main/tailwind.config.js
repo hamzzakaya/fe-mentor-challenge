@@ -1,9 +1,13 @@
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [
-    "./src/**/*.{html,js}", // Projenizdeki HTML ve JS dosyalarının yolunu belirtin
-  ],
+  content: ["./**/*.html"], // Ensure this includes the path to your HTML files
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customPurple: "hsl(277, 64%, 61%)",
+      },
+    },
   },
+  variants: {},
   plugins: [],
 };
