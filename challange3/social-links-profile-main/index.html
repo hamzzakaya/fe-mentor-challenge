@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              vrdarkGrey: "hsl(0, 0%, 8%)",
+              darkGrey: "hsl(0, 0%, 12%)",
+            },
+          },
+        },
+      };
+    </script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-vrdarkGrey flex items-center justify-center h-screen">
+    <div class="bg-darkGrey w-fit h-fit">
+      <div>
+        <div class="flex justify-center">
+          <img src="./assets/images/avatar-jessica.jpeg" class="rounded-full" />
+        </div>
+
+        <h1>Jessica Randall</h1>
+        <h2>London, United Kingdom</h2>
+        <h3>"Front-end developer and avid reader</h3>
+        <ul class="flex flex-col justify-center items-center">
+          <li><a href="#" class="text-white">GitHub</a></li>
+          <li><a href="#" class="text-white">frontendmentor</a></li>
+          <li><a href="#" class="text-white">LinkedIn</a></li>
+          <li><a href="#" class="text-white">Twitter</a></li>
+          <li><a href="#" class="text-white">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
